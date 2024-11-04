@@ -16,7 +16,6 @@ nav img {
   background-image: url(../Images/Party\ 2.jpg);
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.568);
@@ -24,6 +23,7 @@ nav img {
   align-items: center;
   color: white;
   perspective: 1000px;
+  text-align: center;
 }
 .hero h1 {
   font-size: 7rem;
@@ -103,6 +103,7 @@ h1,
   text-shadow: 2px 1px 2px #00ffff;
   position: relative;
   color: #2f4f6f;
+  text-align: center;
 }
 
 #Work {
@@ -195,6 +196,12 @@ footer svg {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .hero h1 {
+    width: 5rem;
+  }
+  .Left {
+    width: 100%;
   }
   .Content {
     flex-direction: column;
